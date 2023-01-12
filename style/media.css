@@ -146,16 +146,22 @@
     }
     .contact__detalies .detalies .mars  {
         width: 100%;
-
     }
-}
-/* phone */
-@media (max-width: 576px){
+
+    
     #prodetails {
         flex-direction: column;
         align-items: center;
     }
 
+    #prodetails .single__pro-image {
+        width: 100% !important; 
+        margin-right: 0px !important;
+    }
+}
+/* phone */
+@media (max-width: 576px){
+    
     .card__add {
         flex-direction: column;
     }
@@ -165,14 +171,16 @@
         width: 100%;
         padding: 20px;
     }
-
+    
     .card__add .coupon {
-        width: 100%;}
+        width: 100%;
+    }
+
+
 }
 /* phone */
 /* @media (max-width: 414px){} */
 @media (max-width: 477px) {
-
 
     .about__head {
        flex-direction: column;
